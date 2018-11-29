@@ -8,7 +8,13 @@
 </head>
 <body>
 	<h1 id="title">CHANGE COLOR FOR DIV</h1>
-	<div id="colorDiv"></div>
+	<div>
+		<div id="show">
+			<h3>COLOR CODES RGB</h3>
+			<p id="codesRgb"></p>
+		</div>
+		<div id="colorDiv"></div>
+	</div>
 	<div>
 		<h2 style="color: red">RED</h2>
 		<input type="range" name="red" min="0" max="255" value="0" onchange="changeColor()" id="red">
@@ -21,6 +27,6 @@
 		<h2 style="color: blue">BLUE</h2>
 		<input type="range" name="blue" min="0" max="255" value="0" onchange="changeColor()" id="blue">
 	</div>
-<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
