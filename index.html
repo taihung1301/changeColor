@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript 01</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+</head>
+<body>
+	<h1 id="title">CHANGE COLOR FOR DIV</h1>
+	<div id="colorDiv"></div>
+	<div>
+		<h2 style="color: red">RED</h2>
+		<input type="range" name="red" min="0" max="255" value="0" onchange="changeColor()" id="red">
+	</div>
+	<div>
+		<h2 style="color: green">GREEN</h2>
+		<input type="range" name="green" min="0" max="255" value="0" onchange="changeColor() "id="green">
+	</div>
+	<div>
+		<h2 style="color: blue">BLUE</h2>
+		<input type="range" name="blue" min="0" max="255" value="0" onchange="changeColor()" id="blue">
+	</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
